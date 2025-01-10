@@ -1,8 +1,8 @@
 name: Repository Events
-on : [push, pull_request, issues]
+on: [push, pull_request, issues]
 
 jobs:
-    checkout-test-1:
+    checkout-test:
         runs-on: ubuntu-latest
         steps:
             - run: |
