@@ -1,5 +1,5 @@
 name: CheckoutTwo
-on: [issues]
+on: [pull_request, issues]
 
 jobs:
     checkout-test:
