@@ -1,7 +1,8 @@
 name: Manually Triggered
 on:
     workflow_dispatch:
-    
+   
+        
 jobs:
     log-info:
         runs-on: ubutnu-latest
