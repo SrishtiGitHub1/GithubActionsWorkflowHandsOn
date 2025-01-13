@@ -1,5 +1,10 @@
 name: CheckoutTwo
-on: [pull_request, issues]
+on:
+    push:
+    pull_request:
+        types: [opened, assigned, closed]
+    issues:
+        types: [opened]
 
 jobs:
     checkout-test:
